@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizzaria Platzi</title>
+    <meta name="description"
+        content="Pizzaria Platzi, Sabores incomparáveis, Ingredientes de alta 
+        qualidade e compromisso de entrega"/>
+    <link href="estilos_pronto.css" rel="stylesheet" />
+
+    <!--link do css do slick-->
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+</head>
+
+<body id="index">
+
+
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="pedido.html" class="botao">Peça online</a>
+        </nav>
+    </header>
+    
+
+    <!-- Section logo-->
+    <section id="logo">
+        <img class="logomarca" src="imagens/logo.png" />
+        <p class="texto-abaixo-logo">Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Ea est nihil nulla mollitia? Accusamus, impedit 
+            quasi voluptatibus, perferendis molestiae unde temporibus quisquam 
+            aut earum aperiam enim laudantium natus maiores similique.</p>
+        <a class="botao">Peça online</a>
+    </section>
+
+    <!-- Section diferenciais-->
+    <section id="diferenciais">
+        <figure>
+            <img src="imagens/ICON.svg" />
+            <h1 class="diferenciais-titulo">Sabor</br>
+                <strong>Incomparável</strong>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora sint iusto, eveniet, explicabo maiores possimus nulla 
+                numquam assumenda voluptas iste, quia modi voluptate. Natus 
+                voluptas esse assumenda est perspiciatis laboriosam?</p>
+            <a class="saiba-mais">Saiba mais</a>
+        </figure>
+
+        <figure>
+            <img src="imagens/ICON-1.svg" alt="ingredientes" />
+            <h1 class="diferenciais-titulo">Ingredientes de</br>
+                <strong>Alta qualidade</strong>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora sint iusto, eveniet, explicabo maiores possimus nulla 
+                numquam assumenda voluptas iste, quia modi voluptate. Natus 
+                voluptas esse assumenda est perspiciatis laboriosam?</p>
+            <a class="saiba-mais">Saiba mais</a>
+        </figure>
+
+        <figure>
+            <img src="imagens/ICON-2.svg" />
+            <h1 class="diferenciais-titulo">Compromisso De</br>
+                <strong>Entrega</strong>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Tempora sint iusto, eveniet, explicabo maiores possimus nulla 
+                numquam assumenda voluptas iste, quia modi voluptate. Natus 
+                voluptas esse assumenda est perspiciatis laboriosam?</p>
+            <a class="saiba-mais">Saiba mais</a>
+        </figure>
+    </section>
+
+    <!-- Section compromisso-->
+    <section class="retangulo-depoimento">
+        <figure id="depoimento-texto">
+            <h1 class="nosso-compromisso">Nosso compromisso</h1>
+            <p class="texto-depoimento">“Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Incidunt numquam ipsum provident nihil, error 
+                vero accusamus excepturi perspiciatis maiores exercitationem! 
+                Consequuntur quaerat pariatur quae animi, eum ex culpa tempora quidem."</p>
+            <p class="nome-pessoa">FRANK HARDY</p>
+            <p class="profissao">CEO and Founder</p>
+        </figure>
+
+        <div class="carousel">
+            <div><img src="imagens/img-client.png" alt="" /></div>
+            <div><img src="imagens/img-client2.jpg" alt="" /></div>
+            <div><img src="imagens/img-client3.jpg" alt="" /></div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Section logo-->
+    <section id="logo-abaixo">
+        <img src="imagens/Grupo 68.png" />
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section id="footer-esquerda">
+            <a>Status</a>
+            <a>Política de Privacidade</a>
+            <a>Contate-nos</a>
+        </section>
+
+        <section id="footer-direita">
+            <img id="bandeira" src="imagens/bandeira-brasil.svg" />
+            <a href="http://facebook.com/thiagovv">
+                <img src="imagens/social.svg" />
+            </a>
+        </section>
+    </footer>
+
+    <!--link do js do slick-->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function () {
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+            });
+        });
+    </script>
+</body>
+
+</html>
