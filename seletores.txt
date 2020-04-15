@@ -1,0 +1,17 @@
+O que são seletores e para que servem?
+Nesta aula, vamos aprender várias características que envolvem seletores.
+
+Os seletores podem ser de vários tipos, podem ser os nomes de uma tag diretamente, para definir as tags que serão afetadas; pode ser um * que afeta todos os elementos da página; e também pode usar um > que indica que você quer um elemento que esteja dentro do outro, por exemplo, header > h1 significa que você quer selecionar todos os h1 que estejam dentro da tag header.
+
+Também há 2 tipos especiais de seletores, class e id. O class é um seletro que começa com um ponto e é uma característica que pode ser indicada dentro das tags HTML. Todos os elementos que tiveram o valor de class com o valor especificado, são afetados. Já o id é muito similar a class, porém, cada id só pode ser usado uma vez por página.
+
+Também veremos as seguintes propriedades CSS:
+
+width, define a largura
+height, define a altura
+background, define uma cor ou imagem para ser usada como fundo de tela
+padding, define a margem interna
+text-align, define o alinhamento do texto, por exemplo, direita, esquerda ou centro
+border-radius, define o raio da borda, quanto maior o valor, mais arredondada
+color, define a cor do elemento
+font-weight, especifica o nível de negrito do tex
